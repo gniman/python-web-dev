@@ -1,0 +1,73 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#showcase {
+    background-image: url("./racecar.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.button{
+    font-size:18px;
+    text-decoration:none;
+    color:white;
+    border:white 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+    background-color: rgb(145, 48, 48);
+  }
+  
+
+.button:hover {
+    background-color: #410000;
+    cursor: pointer;
+}
+
+#section-a {
+    background-color: #ff3333;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+#section-b {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#section-c {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 33.33%;
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
